@@ -16,6 +16,15 @@ $(call inherit-product, device/xiaomi/daisy/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
 
+# Superiorify
+TARGET_BOOT_ANIMATION_RES := 1080
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
+USE_ViaBrowser := true
+BUILD_WITH_GAPPS := true
+#USE_QUICKPIC := true
+#USE_DUCKDUCKGO := false
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
 PRODUCT_NAME := superior_daisy
