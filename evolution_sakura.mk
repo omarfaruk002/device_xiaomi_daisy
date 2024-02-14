@@ -15,7 +15,7 @@ AB_OTA_UPDATER := false
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/evolution/config/common.mk)
 
 # Superiorify
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -34,7 +34,7 @@ USE_QUICKPIC := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sakura
-PRODUCT_NAME := superior_sakura
+PRODUCT_NAME := evolution_sakura
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 6 Pro
